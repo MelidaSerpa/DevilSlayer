@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4923c5b45836b6c4ab07f6ae5b8cb3e2
+guid: 7981d6145b08c0145969477c2554734c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,75 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SteamMan_attack2_0
+      name: GraveRobber_attack2_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 6
         y: 0
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9107963be3d91b74a87a538b6ead8eb5
-      internalID: 879801687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_1
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 0
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1da6a338ae4a7384e9474716319822e8
-      internalID: 1470298370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 25
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af8578421f5ad0408b30d7c25c02c08
-      internalID: -1149391174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 21
+        width: 19
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -182,38 +119,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd8e8e2581a5374b851b26efc9982e0
-      internalID: -1014665222
+      spriteID: 98944c32bdd21274aae24289cf170b8e
+      internalID: -1350782288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_4
+      name: GraveRobber_attack2_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 0
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dde5e6764a9deb45a69dba754860d00
-      internalID: -253477985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_5
-      rect:
-        serializedVersion: 2
-        x: 247
+        x: 51
         y: 0
         width: 22
         height: 34
@@ -224,8 +140,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b09592fa3cd864db4143aa27c2734d
-      internalID: -1848304321
+      spriteID: 266777819f97c414dbcb4263d7c60428
+      internalID: 2086918191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraveRobber_attack2_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e362d764f091a458ac7951f5ad8bb7
+      internalID: 1387113242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraveRobber_attack2_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63b2d88864db24da4572f38a9e7837
+      internalID: 337225049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraveRobber_attack2_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292626704320095449d5c9eb679a7812
+      internalID: -1670698916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraveRobber_attack2_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6bb50c0745fe240a0523fad7b75663
+      internalID: -301565417
       vertices: []
       indices: 
       edges: []
@@ -241,12 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SteamMan_attack2_2: -1149391174
-      SteamMan_attack2_0: 879801687
-      SteamMan_attack2_1: 1470298370
-      SteamMan_attack2_5: -1848304321
-      SteamMan_attack2_3: -1014665222
-      SteamMan_attack2_4: -253477985
+      GraveRobber_attack2_5: -301565417
+      GraveRobber_attack2_0: -1350782288
+      GraveRobber_attack2_1: 2086918191
+      GraveRobber_attack2_2: 1387113242
+      GraveRobber_attack2_3: 337225049
+      GraveRobber_attack2_4: -1670698916
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

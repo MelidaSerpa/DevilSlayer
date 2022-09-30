@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4923c5b45836b6c4ab07f6ae5b8cb3e2
+guid: 0f902ca85860fb74a9966718465dec93
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SteamMan_attack2_0
+      name: Woodcutter_attack1_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 1
         y: 0
-        width: 17
-        height: 36
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,61 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9107963be3d91b74a87a538b6ead8eb5
-      internalID: 879801687
+      spriteID: ef3b2298a7b98a04e89e1c5e5fa674ce
+      internalID: 607270415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_1
+      name: Woodcutter_attack1_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 49
         y: 0
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1da6a338ae4a7384e9474716319822e8
-      internalID: 1470298370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 25
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af8578421f5ad0408b30d7c25c02c08
-      internalID: -1149391174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 21
+        width: 26
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -182,20 +140,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd8e8e2581a5374b851b26efc9982e0
-      internalID: -1014665222
+      spriteID: 4901240bac52fac49b58b080de49f558
+      internalID: -1524074642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_4
+      name: Woodcutter_attack1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1e5db895074d64bbc904cceef51f43
+      internalID: -469701149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodcutter_attack1_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda54b2066f2f084babfaa43cfebc67c
+      internalID: 563163594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Woodcutter_attack1_4
       rect:
         serializedVersion: 2
         x: 199
         y: 0
-        width: 32
-        height: 31
+        width: 38
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dde5e6764a9deb45a69dba754860d00
-      internalID: -253477985
+      spriteID: 7dad78796e94a634ba31721a6310b9dc
+      internalID: 368210732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_5
+      name: Woodcutter_attack1_5
       rect:
         serializedVersion: 2
         x: 247
         y: 0
-        width: 22
-        height: 34
+        width: 24
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b09592fa3cd864db4143aa27c2734d
-      internalID: -1848304321
+      spriteID: 79eb065640addfa4b88a898d697e518a
+      internalID: -822002466
       vertices: []
       indices: 
       edges: []
@@ -241,12 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SteamMan_attack2_2: -1149391174
-      SteamMan_attack2_0: 879801687
-      SteamMan_attack2_1: 1470298370
-      SteamMan_attack2_5: -1848304321
-      SteamMan_attack2_3: -1014665222
-      SteamMan_attack2_4: -253477985
+      Woodcutter_attack1_2: -469701149
+      Woodcutter_attack1_5: -822002466
+      Woodcutter_attack1_4: 368210732
+      Woodcutter_attack1_0: 607270415
+      Woodcutter_attack1_3: 563163594
+      Woodcutter_attack1_1: -1524074642
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

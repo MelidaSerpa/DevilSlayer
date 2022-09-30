@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4923c5b45836b6c4ab07f6ae5b8cb3e2
+guid: 8b478b2373c16c4429c3d868215672bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SteamMan_attack2_0
+      name: Woodcutter_hurt_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 1
         y: 0
-        width: 17
-        height: 36
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,61 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9107963be3d91b74a87a538b6ead8eb5
-      internalID: 879801687
+      spriteID: 571bd5c71a9daa44889a115e92ce39cd
+      internalID: -650858223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_1
+      name: Woodcutter_hurt_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 51
         y: 0
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1da6a338ae4a7384e9474716319822e8
-      internalID: 1470298370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 25
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af8578421f5ad0408b30d7c25c02c08
-      internalID: -1149391174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 21
+        width: 26
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -182,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd8e8e2581a5374b851b26efc9982e0
-      internalID: -1014665222
+      spriteID: ea9de7e85974e16438ebfb0d39daeaa6
+      internalID: 684147847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_4
+      name: Woodcutter_hurt_2
       rect:
         serializedVersion: 2
-        x: 199
+        x: 98
         y: 0
-        width: 32
-        height: 31
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,29 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dde5e6764a9deb45a69dba754860d00
-      internalID: -253477985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SteamMan_attack2_5
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 0
-        width: 22
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8b09592fa3cd864db4143aa27c2734d
-      internalID: -1848304321
+      spriteID: dbe028e814ae5184aa270026d573655e
+      internalID: -1189124105
       vertices: []
       indices: 
       edges: []
@@ -241,12 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SteamMan_attack2_2: -1149391174
-      SteamMan_attack2_0: 879801687
-      SteamMan_attack2_1: 1470298370
-      SteamMan_attack2_5: -1848304321
-      SteamMan_attack2_3: -1014665222
-      SteamMan_attack2_4: -253477985
+      Woodcutter_hurt_2: -1189124105
+      Woodcutter_hurt_0: -650858223
+      Woodcutter_hurt_1: 684147847
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

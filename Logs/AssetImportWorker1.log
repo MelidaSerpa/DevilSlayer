@@ -1,0 +1,231 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 12223 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/MELIDDA SERP/Desktop/Visual studio projects/Git_DemonSlayer/DevilSlayer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59425
+Successfully changed project path to: C:/Users/MELIDDA SERP/Desktop/Visual studio projects/Git_DemonSlayer/DevilSlayer
+C:/Users/MELIDDA SERP/Desktop/Visual studio projects/Git_DemonSlayer/DevilSlayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 136.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MELIDDA SERP/Desktop/Visual studio projects/Git_DemonSlayer/DevilSlayer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018492 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 130.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MELIDDA SERP\Desktop\Visual studio projects\Git_DemonSlayer\DevilSlayer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MELIDDA SERP\Desktop\Visual studio projects\Git_DemonSlayer\DevilSlayer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 142.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2037ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1560ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (129.0 KB). Loaded Objects now: 4740.
+Memory consumption went from 162.3 MB to 162.2 MB.
+Total: 5.073600 ms (FindLiveObjects: 0.601700 ms CreateObjectMapping: 0.752500 ms MarkObjects: 3.582100 ms  DeleteObjects: 0.136400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 634445.614065 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack1.png
+  artifactKey: Guid(7ba840e669265fa4ea269d2597fe1ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack1.png using Guid(7ba840e669265fa4ea269d2597fe1ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2afd7eed7acc69437f5ca87d0de59de') in 0.180993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_death.png
+  artifactKey: Guid(d384070fbaade3547a85463227707b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_death.png using Guid(d384070fbaade3547a85463227707b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f19505cf03909df69bd51eae2f3b61') in 0.023752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack2.png
+  artifactKey: Guid(7981d6145b08c0145969477c2554734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack2.png using Guid(7981d6145b08c0145969477c2554734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1b903f6ed147b0d528c6c57fb95b04') in 0.021285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.505733 seconds.
+  path: Assets/Sprites/Players Sprites/Player 1/Woodcutter_attack2.png
+  artifactKey: Guid(9948358ec57d9364d8d869dfe0de5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 1/Woodcutter_attack2.png using Guid(9948358ec57d9364d8d869dfe0de5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5fb799fca3e5d292add7c25a92df08') in 0.034667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Players Sprites/Player 1/Woodcutter_hurt.png
+  artifactKey: Guid(8b478b2373c16c4429c3d868215672bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 1/Woodcutter_hurt.png using Guid(8b478b2373c16c4429c3d868215672bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ad943d38b068d13262338393cca6e0') in 0.027492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.277114 seconds.
+  path: Assets/Sprites/Players Sprites/Player 1/Woodcutter_attack2.png
+  artifactKey: Guid(9948358ec57d9364d8d869dfe0de5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 1/Woodcutter_attack2.png using Guid(9948358ec57d9364d8d869dfe0de5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a0f935e2f14453cbc8d4ba01ee8f5') in 0.013474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Players Sprites/Player 1/Woodcutter_hurt.png
+  artifactKey: Guid(8b478b2373c16c4429c3d868215672bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 1/Woodcutter_hurt.png using Guid(8b478b2373c16c4429c3d868215672bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f63998e0bece792b27e00ae9c578e01') in 0.015811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Players Sprites/Player 1/Woodcutter_death.png
+  artifactKey: Guid(76c50651859c5884e8308220cce2c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 1/Woodcutter_death.png using Guid(76c50651859c5884e8308220cce2c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc6833a5e0d041218e92e43f5723cfe') in 0.012026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.958442 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack2.png
+  artifactKey: Guid(7981d6145b08c0145969477c2554734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack2.png using Guid(7981d6145b08c0145969477c2554734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5439d2b341d9e1c726bfd12933a8fe53') in 0.012870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack3.png
+  artifactKey: Guid(10f18c9f9b3eca341b3a2822f1892774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_attack3.png using Guid(10f18c9f9b3eca341b3a2822f1892774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777095ff5abe039e6f40175f808e172') in 0.013428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Players Sprites/Player 2/GraveRobber_hurt.png
+  artifactKey: Guid(88b65eb9edcb699488f41036e61326f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 2/GraveRobber_hurt.png using Guid(88b65eb9edcb699488f41036e61326f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2d73b1a1862c056af1061eafa1647') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2155.527926 seconds.
+  path: Assets/Sprites/Players Sprites/Player 3/SteamMan_death.png
+  artifactKey: Guid(974286433e4d20b43a30a11abd631db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Players Sprites/Player 3/SteamMan_death.png using Guid(974286433e4d20b43a30a11abd631db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae37c4c9cc1ecc4f3a8fd784e98c3182') in 0.021041 seconds 

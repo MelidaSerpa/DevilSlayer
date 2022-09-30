@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4923c5b45836b6c4ab07f6ae5b8cb3e2
+guid: 76c50651859c5884e8308220cce2c0d5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SteamMan_attack2_0
+      name: Woodcutter_death_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 1
         y: 0
-        width: 17
-        height: 36
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9107963be3d91b74a87a538b6ead8eb5
-      internalID: 879801687
+      spriteID: d649ab436a729ea4ca7ccdb0946aede9
+      internalID: 1526544714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_1
+      name: Woodcutter_death_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 51
         y: 0
-        width: 17
-        height: 36
+        width: 26
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da6a338ae4a7384e9474716319822e8
-      internalID: 1470298370
+      spriteID: beec60a7e2876be4bb1b833eb8ae636a
+      internalID: -1066140811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_2
+      name: Woodcutter_death_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 101
         y: 0
-        width: 25
-        height: 36
+        width: 26
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2af8578421f5ad0408b30d7c25c02c08
-      internalID: -1149391174
+      spriteID: 031f1c4c1342c534d9251a449757e552
+      internalID: 580179049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_3
+      name: Woodcutter_death_3
       rect:
         serializedVersion: 2
         x: 151
         y: 0
-        width: 21
-        height: 33
+        width: 27
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd8e8e2581a5374b851b26efc9982e0
-      internalID: -1014665222
+      spriteID: 2d5110ea2aea0e946ad864e0f2a3d642
+      internalID: -1612157351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_4
+      name: Woodcutter_death_4
       rect:
         serializedVersion: 2
         x: 199
         y: 0
-        width: 32
-        height: 31
+        width: 27
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dde5e6764a9deb45a69dba754860d00
-      internalID: -253477985
+      spriteID: 6100e89ecd93df74498b0f6b8c365913
+      internalID: 1997368382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SteamMan_attack2_5
+      name: Woodcutter_death_5
       rect:
         serializedVersion: 2
         x: 247
         y: 0
-        width: 22
-        height: 34
+        width: 32
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b09592fa3cd864db4143aa27c2734d
-      internalID: -1848304321
+      spriteID: e59a0510771ad594783b4dc2a9efae4b
+      internalID: -752634072
       vertices: []
       indices: 
       edges: []
@@ -241,12 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SteamMan_attack2_2: -1149391174
-      SteamMan_attack2_0: 879801687
-      SteamMan_attack2_1: 1470298370
-      SteamMan_attack2_5: -1848304321
-      SteamMan_attack2_3: -1014665222
-      SteamMan_attack2_4: -253477985
+      Woodcutter_death_2: 580179049
+      Woodcutter_death_3: -1612157351
+      Woodcutter_death_1: -1066140811
+      Woodcutter_death_4: 1997368382
+      Woodcutter_death_0: 1526544714
+      Woodcutter_death_5: -752634072
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
