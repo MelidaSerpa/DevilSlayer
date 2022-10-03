@@ -1,0 +1,849 @@
+fileFormatVersion: 2
+guid: e4ab8305f53c2844eaa50a78cecafb97
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 335
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed842c368dbf2ac46b8291136b1ef5a2
+      internalID: 1851366726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f306b15965a35446ae644fb47e96ac6
+      internalID: -1518713763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 336
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00db691a977fd0843ad25699dc014b2b
+      internalID: 1821689219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 338
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5ba379970697d4199c2508c02670ac
+      internalID: 433805525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 335
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4016d63a8fd4cce479c83fc0bcc4f568
+      internalID: 448666628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 335
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa26ae48625dfcf4db77d3c09e8c741a
+      internalID: -1617474715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9d27aaa2039a04283bd7a0b6d619e0
+      internalID: 2090312299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d2be47d6cdaca408b72cdfe08f5001
+      internalID: 1601347466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a40b9483afc5e6469e2b5f432337e08
+      internalID: -883626658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dae90cf031ae942b53be0df6d1d5ff
+      internalID: -196707118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320a52c65f33f1443884d43da47496c4
+      internalID: -2201025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 271
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33119570a67af004a86eea6edf1160f9
+      internalID: -1831784630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 208
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657e803868f9b143941eadd59d37d9b
+      internalID: -11771975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 208
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed87329a7d6dd704e8c2e95f78088a55
+      internalID: 2133850672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 208
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae1d12c1b047764094be6ab9bf09fca
+      internalID: -908095792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 208
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84d46d73b72be240b58c741b8bffb8d
+      internalID: 687401058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 208
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6781d3bf106b7944a9ed4f8a1eac4632
+      internalID: 1436805300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 209
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ae3ae0ed7a57b4cb4b69b8a3d7f119
+      internalID: -448939993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 144
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0bba58a23a61e4ca34840fcad4d668
+      internalID: 2062804565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 143
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41300bae1ef44014581dd00e3999d0f4
+      internalID: 1199270599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 143
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136791e4adb950a4f8edbd8dd6e921f0
+      internalID: 810011657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_35
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 143
+        width: 95
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834063b990fad6247a6002cb2782696c
+      internalID: 1773588224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 143
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803e5340a9b4f4a4e99f69e8dc469297
+      internalID: -201260535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 81
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb31cfc1322d614eb78a3fd0eeee449
+      internalID: -605356879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 83
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7859245ff2af5784692494ce15ee0280
+      internalID: 732310427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 81
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c732455164735c47be13663c4ad0059
+      internalID: -631413655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 81
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8c3de9854391d48be83cde164951e6
+      internalID: 651245354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 79
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44e11e8ed4ccae4a861011f4397ea33
+      internalID: -1962970973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_50
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 79
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f632325de5b6f43857f1eabac5def8
+      internalID: 926723949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421594d1ac56f754ab7e450cd70c3cf9
+      internalID: 1662712177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f487f000874b37d46ab1fb7fd7cefdd6
+      internalID: -296429256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trash Monster-Sprite V2_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d238b678ebf4f4b84fa85a8c1c645a
+      internalID: 2081199894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Trash Monster-Sprite V2_42: -631413655
+      Trash Monster-Sprite V2_5: 448666628
+      Trash Monster-Sprite V2_15: 2133850672
+      Trash Monster-Sprite V2_24: 2062804565
+      Trash Monster-Sprite V2_1: -1518713763
+      Trash Monster-Sprite V2_3: 1821689219
+      Trash Monster-Sprite V2_10: -196707118
+      Trash Monster-Sprite V2_18: -288554944
+      Trash Monster-Sprite V2_17: -908095792
+      Trash Monster-Sprite V2_16: -2072548955
+      Trash Monster-Sprite V2_43: -312725837
+      Trash Monster-Sprite V2_21: 1436805300
+      Trash Monster-Sprite V2_7: 2090312299
+      Trash Monster-Sprite V2_29: 1470453911
+      Trash Monster-Sprite V2_11: -2201025
+      Trash Monster-Sprite V2_13: -11771975
+      Trash Monster-Sprite V2_8: 1601347466
+      Trash Monster-Sprite V2_4: 433805525
+      Trash Monster-Sprite V2_23: -448939993
+      Trash Monster-Sprite V2_46: -724005609
+      Trash Monster-Sprite V2_40: 732310427
+      Trash Monster-Sprite V2_12: -1831784630
+      Trash Monster-Sprite V2_30: -925362856
+      Trash Monster-Sprite V2_28: -1320219604
+      Trash Monster-Sprite V2_37: -201260535
+      Trash Monster-Sprite V2_19: 687401058
+      Trash Monster-Sprite V2_27: 810011657
+      Trash Monster-Sprite V2_39: -605356879
+      Trash Monster-Sprite V2_32: -1608061471
+      Trash Monster-Sprite V2_45: 651245354
+      Trash Monster-Sprite V2_33: 594704171
+      Trash Monster-Sprite V2_53: 2081199894
+      Trash Monster-Sprite V2_34: -361889395
+      Trash Monster-Sprite V2_26: 859114229
+      Trash Monster-Sprite V2_35: 1773588224
+      Trash Monster-Sprite V2_20: 916867616
+      Trash Monster-Sprite V2_44: 105778424
+      Trash Monster-Sprite V2_36: -185714579
+      Trash Monster-Sprite V2_14: 773411453
+      Trash Monster-Sprite V2_38: -1647145771
+      Trash Monster-Sprite V2_50: 926723949
+      Trash Monster-Sprite V2_52: -296429256
+      Trash Monster-Sprite V2_0: 1851366726
+      Trash Monster-Sprite V2_2: -513627588
+      Trash Monster-Sprite V2_25: 1199270599
+      Trash Monster-Sprite V2_48: -1962970973
+      Trash Monster-Sprite V2_22: 1171333890
+      Trash Monster-Sprite V2_47: -1694094691
+      Trash Monster-Sprite V2_9: -883626658
+      Trash Monster-Sprite V2_41: 1401408008
+      Trash Monster-Sprite V2_49: 1635087472
+      Trash Monster-Sprite V2_6: -1617474715
+      Trash Monster-Sprite V2_31: -1936547288
+      Trash Monster-Sprite V2_51: 1662712177
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
