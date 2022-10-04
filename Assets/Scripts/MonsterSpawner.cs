@@ -4,42 +4,27 @@ using UnityEngine;
 
 public class MonsterSpawner : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject[] monsterReference;
-    [SerializeField]
-    private GameObject[] spawnPoints;
+	public Transform[] spawnPoints;
+	public GameObject[] monsters;
+	int randomSpawnPoint, randomMonster;
+	public static bool spawnAllowed;
 
-    private GameObject spawnedMonster;
+	// Use this for initialization
+	void Start()
+	{
+		spawnAllowed = true;
+		InvokeRepeating("SpawnAMonster", 0f, 4f);
+	}
 
-    [SerializeField]
-    private Transform leftPos, rightPos;
-
-    private int randomIndex;
-    private int randomSide;
-
-    public static bool spawnAllowed;
-
-
-    void Start()
-    {
-        spawnAllowed = true;
-        InvokeRepeating("SpawnMonsters", 0f, 1f);
-    }
-
-    void SpawnMonsters()
-    {
-        if (spawnAllowed)
-        {
-            randomSide = Random.Range(0, spawnPoints.Length);
-            randomIndex = Random.Range(0, monsterReference.Length);
-
-            //Instantiate (monsterReference [randomIndex], spawnPoints [randomSide].position, 
-                //Quaternion.identity);
-        }
-
-
-    }
-
-
+	void SpawnAMonster()
+	{
+		if (spawnAllowed)
+		{
+			randomSpawnPoint = Random.Range(0, spawnPoints.Length);
+			randomMonster = Random.Range(0, monsters.Length);
+			Instantiate(monsters[randomMonster], spawnPoints[randomSpawnPoint].position,
+				Quaternion.identity);
+		}
+	}
 
 }

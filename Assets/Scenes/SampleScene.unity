@@ -1150,8 +1150,8 @@ MonoBehaviour:
   Player: {fileID: 1972729554}
   timeOffSet: 3
   posOffSet: {x: 0.16, y: 2}
-  leftLimit: -16.68
-  rightLimit: 114.6
+  leftLimit: -15.12
+  rightLimit: 113.7
   topLimit: 2.53
   bottonLimit: 0.15
 --- !u!1 &522857509
@@ -3626,10 +3626,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766e7ca1602b45542823ac59438efe5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterReference:
+  spawnPoints:
+  - {fileID: 1895140206}
+  - {fileID: 801225792}
+  monsters:
   - {fileID: 4246503004331870968, guid: 45dae9c5a8e32764880041f6bb841577, type: 3}
-  leftPos: {fileID: 1895140206}
-  rightPos: {fileID: 801225792}
 --- !u!4 &1067052749
 Transform:
   m_ObjectHideFlags: 0

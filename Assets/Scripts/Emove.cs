@@ -5,53 +5,55 @@ using UnityEngine;
 public class Emove : MonoBehaviour
 {
 
-    [SerializeField]
-    private Rigidbody2D rb;
-    GameObject target;
-    float moveSpeed;
-    Vector3 directionToTarget;
+	Rigidbody2D rb;
+	GameObject target;
+	float moveSpeed;
+	Vector3 directionToTarget;
+	[SerializeField]
+	private SpriteRenderer sr;
 
+	// Use this for initialization
+	void Start()
+	{
+		target = GameObject.FindWithTag("Player");
+		rb = GetComponent<Rigidbody2D>();
+		moveSpeed = Random.Range(6f, 10f);
+	}
 
-    
-    void Start()
-    {
-        target = GameObject.Find("Player");
-        rb = GetComponent<Rigidbody2D>();
-        moveSpeed = Random.Range(4f, 10f);
-    }
-
-    void Update()
-    {
-        MoveMonster();
-    }
-
-    void MoveMonster()
-    {
-        if (target != null)
-        {
-            directionToTarget = (target.transform.position - transform.position).normalized;
-            rb.velocity = new Vector2(directionToTarget.x * moveSpeed,
-                                        directionToTarget.y * moveSpeed);
-        }
-        else 
-        {
-            rb.velocity = Vector3.zero;
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		//float distToPlayer = Vector2.Distance(transform.position, target.transform.position);
+		ChasePlayer();
 
 
 
+	}
 
 
 
+	void ChasePlayer()
+	{
+		if (target != null && transform.position.x < target.transform.position.x)
+		{
+			//Enemy is to the left side of the player, so move right
 
-
-
-
-
-
-
-
-
+			rb.velocity = new Vector2(moveSpeed, 0);
+			sr.flipX = true;
+			Debug.Log("Enemy should move to the right");
+		}
+		else if (target != null && transform.position.x > target.transform.position.x)
+		{
+			//Enemy is to the right side of the player, so move left
+			rb.velocity = new Vector2(-moveSpeed, 0);
+			sr.flipX = false;
+			Debug.Log("Enemy should move to the left");
+		}
+		else if (target == null)
+		{
+			Debug.Log("Player does not exist in the hierarchy");
+			rb.velocity = Vector3.zero;
+		}
+	}
 
 }
