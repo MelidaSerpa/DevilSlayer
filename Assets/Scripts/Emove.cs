@@ -12,12 +12,16 @@ public class Emove : MonoBehaviour
 	[SerializeField]
 	private SpriteRenderer sr;
 
+	[SerializeField]
+	private Animator anim;
+
 	// Use this for initialization
 	void Start()
 	{
-		target = GameObject.FindWithTag("Player");
 		rb = GetComponent<Rigidbody2D>();
-		moveSpeed = Random.Range(6f, 10f);
+		anim = GetComponent<Animator>();
+		target = GameObject.FindWithTag("Player");
+		moveSpeed = Random.Range(4f, 8f);
 	}
 
 	// Update is called once per frame
@@ -25,14 +29,23 @@ public class Emove : MonoBehaviour
 	{
 		//float distToPlayer = Vector2.Distance(transform.position, target.transform.position);
 		ChasePlayer();
-
+		MonsterAnim();
 
 
 	}
 
+    void MonsterAnim()
+    {
+		//Monster Run animation will start if the GameObject is moving
+		if (rb.velocity.x > 0 || rb.velocity.x < 0)
+		{
+			anim.SetBool("Run", true);
+		}
 
+		//Animation will end if there is no movement
+    }
 
-	void ChasePlayer()
+    void ChasePlayer()
 	{
 		if (target != null && transform.position.x < target.transform.position.x)
 		{
@@ -55,5 +68,8 @@ public class Emove : MonoBehaviour
 			rb.velocity = Vector3.zero;
 		}
 	}
+
+
+	
 
 }

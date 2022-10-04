@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2969232544424435929}
   m_Layer: 0
   m_Name: Trash Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 4246503004331870975}
+  anim: {fileID: 4246503004331870974}
 --- !u!50 &549387605829046323
 Rigidbody2D:
   serializedVersion: 4
@@ -140,7 +141,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &2969232544424435929
 BoxCollider2D:

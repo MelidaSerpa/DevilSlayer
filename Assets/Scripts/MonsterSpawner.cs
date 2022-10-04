@@ -8,12 +8,23 @@ public class MonsterSpawner : MonoBehaviour
 	public GameObject[] monsters;
 	int randomSpawnPoint, randomMonster;
 	public static bool spawnAllowed;
+	int spawnLimit = 4;
+	int spawned;
+
+	private GameObject Monster;
 
 	// Use this for initialization
 	void Start()
 	{
 		spawnAllowed = true;
 		InvokeRepeating("SpawnAMonster", 0f, 4f);
+		Monster = GameObject.FindWithTag("Enemy");
+	}
+
+	private void Update()
+	{
+		monsterLimit();
+
 	}
 
 	void SpawnAMonster()
@@ -24,6 +35,23 @@ public class MonsterSpawner : MonoBehaviour
 			randomMonster = Random.Range(0, monsters.Length);
 			Instantiate(monsters[randomMonster], spawnPoints[randomSpawnPoint].position,
 				Quaternion.identity);
+		}
+
+	}
+
+    void monsterLimit()
+	{
+		if (spawned <= spawnLimit)
+		{
+			spawnAllowed = true;
+			spawned++;
+			Debug.Log("disable spawn");
+		}
+
+		else if (spawned >= spawnLimit)
+		{
+			spawnAllowed = false;
+			Debug.Log("disable spawn");
 		}
 	}
 
