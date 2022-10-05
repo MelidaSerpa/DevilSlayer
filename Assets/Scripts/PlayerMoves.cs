@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMoves : MonoBehaviour
 {
     //Player body, speed, jumpForce and spriteRenderer attachment/management
+    
     [SerializeField]
     private Rigidbody2D mybody;
     [SerializeField]
