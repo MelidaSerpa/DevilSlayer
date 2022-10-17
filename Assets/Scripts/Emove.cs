@@ -15,6 +15,9 @@ public class Emove : MonoBehaviour
 	[SerializeField]
 	private Animator anim;
 
+	[SerializeField]
+	private float agroRange;
+
 	// Use this for initialization
 	void Start()
 	{
@@ -28,9 +31,10 @@ public class Emove : MonoBehaviour
 	void Update()
 	{
 		//float distToPlayer = Vector2.Distance(transform.position, target.transform.position);
+	
 		ChasePlayer();
 		MonsterAnim();
-
+		distDetection();
 
 	}
 
@@ -47,29 +51,53 @@ public class Emove : MonoBehaviour
 
     void ChasePlayer()
 	{
-		if (target != null && transform.position.x < target.transform.position.x)
-		{
-			//Enemy is to the left side of the player, so move right
+		float distToPlayer = Vector2.Distance(transform.position, target.transform.position);
 
-			rb.velocity = new Vector2(moveSpeed, 0);
-			sr.flipX = true;
-			Debug.Log("Enemy should move to the right");
-		}
-		else if (target != null && transform.position.x > target.transform.position.x)
+		if (distToPlayer > agroRange)
 		{
-			//Enemy is to the right side of the player, so move left
-			rb.velocity = new Vector2(-moveSpeed, 0);
-			sr.flipX = false;
-			Debug.Log("Enemy should move to the left");
-		}
-		else if (target == null)
-		{
-			Debug.Log("Player does not exist in the hierarchy");
-			rb.velocity = Vector3.zero;
+			if (target != null && transform.position.x < target.transform.position.x)
+			{
+				//Enemy is to the left side of the player, so move right
+
+				rb.velocity = new Vector2(moveSpeed, 0);
+				sr.flipX = true;
+			}
+			if (target != null && transform.position.x > target.transform.position.x)
+			{
+				//Enemy is to the right side of the player, so move left
+				rb.velocity = new Vector2(-moveSpeed, 0);
+				sr.flipX = false;
+			}
+			else if (target == null)
+			{
+				Debug.Log("Player does not exist in the hierarchy");
+				rb.velocity = Vector3.zero;
+			}
 		}
 	}
 
+	void distDetection()
+	{
+		float distToPlayer = Vector2.Distance(transform.position, target.transform.position);
 
+
+		if (distToPlayer < agroRange)
+		{
+			anim.SetTrigger("Attack");
+			moveSpeed = 5;
+		}
+		if (distToPlayer < 1)
+		{
+			anim.SetBool("Run", false);
+			moveSpeed = 3;
+		}
+		else
+		{
+			anim.SetBool("Run", true);
+			moveSpeed = Random.Range(4f, 8f); ;
+		}
+
+	}
 	
 
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3463814045417234265}
   - component: {fileID: 549387605829046323}
   - component: {fileID: 2969232544424435929}
+  - component: {fileID: 4046028591014171027}
   m_Layer: 3
   m_Name: Trash Monster
   m_TagString: Enemy
@@ -122,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 4246503004331870975}
   anim: {fileID: 4246503004331870974}
+  agroRange: 5
 --- !u!50 &549387605829046323
 Rigidbody2D:
   serializedVersion: 4
@@ -169,3 +171,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52, y: 0.19148159}
   m_EdgeRadius: 0
+--- !u!114 &4046028591014171027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246503004331870968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968a7b8afd60afc4c92a035ee7d83439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  anim: {fileID: 4246503004331870974}

@@ -66,7 +66,7 @@ public class PlayerMoves : MonoBehaviour
     //Movement input
     void isMove()
     {
-        movementX = Input.GetAxisRaw("Horizontal");
+        movementX = Input.GetAxisRaw("Horizontal");      
         transform.position += new Vector3(movementX,0,0) * movementSpeed * Time.deltaTime;
 
         if (movementX < 0 && movementSpeed == 3)
